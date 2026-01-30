@@ -1,24 +1,21 @@
-// Simple Calculator using JavaScript only
+// Two numbers
+let number1 = 10;
+let number2 = 5;
 
-// Ask the user for numbers and an operator
-let num1 = Number(prompt("Enter the first number:"));
-let operator = prompt("Enter an operator (+, -, *, /):");
-let num2 = Number(prompt("Enter the second number:"));
+// Addition
+let addition = number1 + number2;
 
-let result;
+// Subtraction
+let subtraction = number1 - number2;
 
-// Decide which operation to perform
-if (operator === "+") {
-  result = num1 + num2;
-} else if (operator === "-") {
-  result = num1 - num2;
-} else if (operator === "*") {
-  result = num1 * num2;
-} else if (operator === "/") {
-  result = num1 / num2;
-} else {
-  console.log("Invalid operator");
-}
+// Multiplication
+let multiplication = number1 * number2;
 
-// Show the result
-console.log("Result:", result);
+// Division
+let division = number1 / number2;
+
+// Display the results
+console.log("Addition:", addition);
+console.log("Subtraction:", subtraction);
+console.log("Multiplication:", multiplication);
+console.log("Division:", division);
