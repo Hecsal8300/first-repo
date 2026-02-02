@@ -20,3 +20,4 @@ console.log("Subtraction:", subtraction);
 console.log("Multiplication:", multiplication);
 console.log("Division:", division);
 console.log('math is fun!')
+console.log
